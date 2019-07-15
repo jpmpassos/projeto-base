@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Projeto-Base - Angular 8 com Angular Material 8
 
-You can use the [editor on GitHub](https://github.com/jpmpassos/projeto-base/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Você pode saver mais sobre o projeto no site [Medina Passos](http://medinapassos.com.br/pages/angular-material.html) .
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Este projeto é um exemplo de uma aplicação em Angular 8 integrado com Angular Material 8, onde a mesma faz uso de esquemas pre construidos do Angular Material.
 
-### Markdown
+Nessa aplicação é possível ver a implementação de 6 páginas em Angular. Cada página com um exmplo diferente da utilização dos componentes do Angular Material 8.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Esquemas(Schematics) utilizado no projeto
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jpmpassos/projeto-base/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+address-form - Componente que utiliza o reactive para construção de um formulário de endereços com diversos componentes do Angular Material.
+navigation - Cria um componente com um sidenav e um toobar para apresentar o nome da aplicação
+dashboard - Componente com vários cards do Material Design e cada um com um menu que está alinha em um grid layout.
+table - Gera um exemplo com um data table com paginação.
+tree - Componente interativo que visualiza uma simulação de pastas, subpastas e arquivos com o componente <mat-tree>;
+drag-drop - Componente que usa a diretiva o comando angular/cdk/drag-drop para criar duas listas onde se pode arrastar e soltar os elementos entre elas.
