@@ -9,8 +9,13 @@ Nessa aplicação é possível ver a implementação de 6 páginas em Angular. C
 ### Esquemas(Schematics) utilizado no projeto
 
 address-form - Componente que utiliza o reactive para construção de um formulário de endereços com diversos componentes do Angular Material.
-navigation - Cria um componente com um sidenav e um toobar para apresentar o nome da aplicação
+
+navigation - Cria um componente com um sidenav e um toobar para apresentar o nome da aplicação.
+
 dashboard - Componente com vários cards do Material Design e cada um com um menu que está alinha em um grid layout.
+
 table - Gera um exemplo com um data table com paginação.
-tree - Componente interativo que visualiza uma simulação de pastas, subpastas e arquivos com o componente <mat-tree>;
+
+tree - Componente interativo que visualiza uma simulação de pastas, subpastas e arquivos com o componente <mat-tree>.
+  
 drag-drop - Componente que usa a diretiva o comando angular/cdk/drag-drop para criar duas listas onde se pode arrastar e soltar os elementos entre elas.
