@@ -22,4 +22,4 @@ drag-drop - Componente que usa a diretiva o comando angular/cdk/drag-drop para c
 
 ### Rodando o Projeto
 
-Para rodar o projeto basta baixa-lo usando o git, instalar as dependências utilizando o comando 'npm install' e depois rodar o comando <ng serve>.
+Para rodar o projeto basta baixa-lo usando o git, instalar as dependências utilizando o comando 'npm install' e depois rodar o comando 'ng serve'.
