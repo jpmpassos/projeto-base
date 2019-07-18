@@ -5,11 +5,11 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item (click)="drawer.toggle()" routerLink="dashboard">Dashboard Page</a>
-      <a mat-list-item (click)="drawer.toggle()" routerLink="address">Anddress Page</a>
-      <a mat-list-item (click)="drawer.toggle()" routerLink="table">Table Page</a>
-      <a mat-list-item (click)="drawer.toggle()" routerLink="tree">Tree Page</a>
-      <a mat-list-item (click)="drawer.toggle()" routerLink="dragdrop">Drag-Drop Page</a>
+      <a mat-list-item routerLink="dashboard">Dashboard Page</a>
+      <a mat-list-item routerLink="address">Anddress Page</a>
+      <a mat-list-item routerLink="table">Table Page</a>
+      <a mat-list-item routerLink="tree">Tree Page</a>
+      <a mat-list-item routerLink="dragdrop">Drag-Drop Page</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
